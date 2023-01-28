@@ -26,7 +26,7 @@ tables including the following:
 Now we need to use MySQL Workbench SQL editor to write the required stored
 procedures and prepared statements.
 #### 2.1.1 GetMaxQuantity
-Code -> [here](./sql_queries/GetMaxQuantity.sql)\
+Code -> [here](./sql_queries/GetMaxQuantity.sql)
 ```
 CREATE DEFINER=`root`@`localhost` PROCEDURE `GetMaxQuantity`(OUT Max_Quantity_In_Order INT)
 SELECT MAX(Quantity) INTO Max_Quantity_In_Order
@@ -40,7 +40,11 @@ Then, selecting the result from the output
 ```
 SELECT @MaxOrderQuantity
 ```
+####2.1.2 GetOrderDetail
+code -> [here](./sql_queries/GetOrderDetail.sql)
 
+####2.1.3 CancelOrder
+code -> [here](./sql_queries/CancelOrder.sql)
 
 
 
