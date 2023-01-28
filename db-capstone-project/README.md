@@ -28,18 +28,13 @@ procedures and prepared statements.
 #### 2.1.1 GetMaxQuantity
 Code -> [here](./sql_queries/GetMaxQuantity.sql)
 ```
-CREATE DEFINER=`root`@`localhost` PROCEDURE `GetMaxQuantity`(OUT Max_Quantity_In_Order INT)
-SELECT MAX(Quantity) INTO Max_Quantity_In_Order
-FROM Orders
+CREATE PROCEDURE GetMaxQuantity()
+SELECT MAX(Quantity) FROM Orders;
 ```
-To run this query, we need to input when calling:
-```
-CALL GetMaxQuantity(@MaxOrderQuantity)
-```
-Then, selecting the result from the output
-```
-SELECT @MaxOrderQuantity
-```
+See result:
+<img width="445" alt="Screenshot 2023-01-28 at 13 57 59" src="https://user-images.githubusercontent.com/76271974/215270414-1cfdc04e-2343-4440-94f7-07967233b611.png">
+
+
 #### 2.1.2 GetOrderDetail
 code -> [here](./sql_queries/GetOrderDetail.sql)
 
