@@ -26,7 +26,7 @@ tables including the following:
 Now we need to use MySQL Workbench SQL editor to write the required stored
 procedures and prepared statements.
 #### 2.1.1 GetMaxQuantity
-Code -> [here](/sql_queries/GetMaxQuantity.sql)
+Code -> [here](./sql_queries/GetMaxQuantity.sql)
 
 
 
