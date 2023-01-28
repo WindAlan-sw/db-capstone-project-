@@ -26,19 +26,24 @@ See the reusults of finding date '2022-11-12' and tableno of '3':
 
 2.\
 [AddValidBooking](./AddValidBooking.sql)
+
 <img width="594" alt="Screenshot 2023-01-28 at 01 22 37" src="https://user-images.githubusercontent.com/76271974/215234183-6bb01040-4e1d-47d5-9bf8-fa35e859b756.png">
 
 3.\
 [AddBooking](./AddBooking.sql)
+
 <img width="695" alt="Screenshot 2023-01-28 at 01 41 11" src="https://user-images.githubusercontent.com/76271974/215235141-ed8a75b9-f532-486a-a8d9-ae1c36ece861.png">
 
 4.\
 [UpdateBooking](./UpdateBooking.sql)
+
 <img width="700" alt="Screenshot 2023-01-28 at 01 53 43" src="https://user-images.githubusercontent.com/76271974/215235778-7a1838b2-4678-4bfc-aa9c-ae6b9fd2d937.png">
 
 5.\
 [CancelBooking](./CancelBooking.sql)
+
 <img width="557" alt="Screenshot 2023-01-28 at 01 59 00" src="https://user-images.githubusercontent.com/76271974/215236271-cd54bab4-bc3f-4d25-bfd1-944188d1384c.png">
+
 <img width="468" alt="Screenshot 2023-01-28 at 01 59 10" src="https://user-images.githubusercontent.com/76271974/215236273-24e9e66b-5438-403b-9e5f-d12424651e00.png">
 
 
