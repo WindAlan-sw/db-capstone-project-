@@ -64,7 +64,7 @@ See the reusults of finding date '2022-11-12' and tableno of '3':
 [AddBooking](./sql_queries/AddBooking.sql)
 <img width="695" alt="Screenshot 2023-01-28 at 01 41 11" src="https://user-images.githubusercontent.com/76271974/215235141-ed8a75b9-f532-486a-a8d9-ae1c36ece861.png">
 4.\
-[UpdateBooking](./sql_queries_UpdateBooking.sql)
+[UpdateBooking](./sql_queries/UpdateBooking.sql)
 <img width="700" alt="Screenshot 2023-01-28 at 01 53 43" src="https://user-images.githubusercontent.com/76271974/215235778-7a1838b2-4678-4bfc-aa9c-ae6b9fd2d937.png">
 
 
