@@ -2,7 +2,7 @@ DELIMITER //
 CREATE PROCEDURE AddBooking(BookingIDInput INT, CustomerIDInput INT, 
 BookingDateInput DATETIME, TableNoInput INT)
 BEGIN
-	DECLARE result VARCHAR(255);
+    DECLARE result VARCHAR(255);
     DECLARE n_bookings INT;
     
     SELECT COUNT(*) INTO n_bookings
