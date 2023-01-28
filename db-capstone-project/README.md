@@ -40,10 +40,10 @@ Then, selecting the result from the output
 ```
 SELECT @MaxOrderQuantity
 ```
-####2.1.2 GetOrderDetail
+#### 2.1.2 GetOrderDetail
 code -> [here](./sql_queries/GetOrderDetail.sql)
 
-####2.1.3 CancelOrder
+#### 2.1.3 CancelOrder
 code -> [here](./sql_queries/CancelOrder.sql)
 
 
