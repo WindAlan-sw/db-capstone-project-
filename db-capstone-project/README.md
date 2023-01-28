@@ -28,16 +28,21 @@ procedures and prepared statements.
 
 ## 2. Procedure and Client Testing
 For easier assessing, I have provided self-test result of each criteria, and if you want to
-check procedure exercises, moving to [here](./sql_queries)
+check procedure exercises, moving to [here(sql_queries)](./sql_queries)
+
 #### 2.1.1 GetMaxQuantity
 Code -> [here](./sql_queries/GetMaxQuantity.sql)
 ```
 CREATE PROCEDURE GetMaxQuantity()
 SELECT MAX(Quantity) FROM Orders;
 ```
-See result:
+You can either run this script on your Workbench or test this in JupyterNotebook environment.
+See result in Workbench:
 <img width="445" alt="Screenshot 2023-01-28 at 13 57 59" src="https://user-images.githubusercontent.com/76271974/215270414-1cfdc04e-2343-4440-94f7-07967233b611.png">
 
+If under Jupyter environ, the result will be:
+
+<img width="745" alt="Screenshot 2023-01-28 at 15 07 32" src="https://user-images.githubusercontent.com/76271974/215273883-797b8925-beab-42e4-b309-a822d8c2dc15.png">
 
 
 
