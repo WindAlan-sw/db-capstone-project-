@@ -17,4 +17,7 @@ The founded database can be seen below ![This is the created littlelemondb](http
 #### 3.1 Data Visualization
 This part requires us to utlize the sales data from LittleLemon to genereate a data visualization
 report on Tableau. In total, we need to make three charts and one interactive dashboard. Check.
-1. [[ProfitChart](./SalesReport_Tableau/Profit_Chart.png)
+1. [ProfitChart](./SalesReport_Tableau/Profit_Chart.png)
+2. [Sales_Bubble_Chart](./SalesReport_Tableau/Sales_Bubble_Chart.png)
+3. [Cuisine_Sales_Performance](./SalesReport_Tableau/Cuisine_Sales_and_profits.png)
+4. [Interactive_Sales_Report](./SalesReport_Tableau/Sales_Report_1.png)
