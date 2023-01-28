@@ -56,6 +56,10 @@ adding valid booking, or cancel booking using the following data:
 See the reusults of finding date '2022-11-12' and tableno of '3':
 <img width="443" alt="Screenshot 2023-01-28 at 01 06 08" src="https://user-images.githubusercontent.com/76271974/215232979-bbac7bfd-23bf-4276-b0f5-5bd22f372181.png">
 
+2.\
+[AddValidBooking](./sql_queries/AddValidBooking.sql)\
+
+<img width="594" alt="Screenshot 2023-01-28 at 01 22 37" src="https://user-images.githubusercontent.com/76271974/215234183-6bb01040-4e1d-47d5-9bf8-fa35e859b756.png">
 
 
 #### 3.1 Data Visualization
