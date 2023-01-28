@@ -52,7 +52,10 @@ adding valid booking, or cancel booking using the following data:
 <img width="868" alt="Screenshot 2023-01-28 at 00 45 20" src="https://user-images.githubusercontent.com/76271974/215231768-ce71b77e-e148-41d9-acca-1a7f6bd9b09c.png">
 
 1.\
-[CheckBooking](./sql_queries/CheckBooking.sql)
+[CheckBooking](./sql_queries/CheckBooking.sql)\
+See the reusults of finding date '2022-11-12' and tableno of '3':
+<img width="443" alt="Screenshot 2023-01-28 at 01 06 08" src="https://user-images.githubusercontent.com/76271974/215232979-bbac7bfd-23bf-4276-b0f5-5bd22f372181.png">
+
 
 
 #### 3.1 Data Visualization
