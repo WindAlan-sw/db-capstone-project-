@@ -11,6 +11,22 @@ After implementing this ER diagram, we used the 'Forward engineer' funciton in M
 create the database. The automatically generated SQL query can be found [here](./LittleLemonDB.sql).
 The founded database can be seen below ![This is the created littlelemondb](https://raw.githubusercontent.com/WindAlan-sw/db-capstone-project-/master/db-capstone-project/show_db_sql_query.png)
 
+#### 2.1 Query Optimization
+Little Lemon need to query the data in their database. To do this, they need 
+your help with creating optimized queries using stored procedures and prepared
+statements.\
+In the previous module, you developed a data model for Little Lemon and 
+implemented it in your MySQL server. Your database should now contain several 
+tables including the following:
+1. **Menus**, 
+2. **Orders**, 
+3. **MenuItems**,
+4. **and Customers**.\
+Now we need to use MySQL Workbench SQL editor to write the required stored
+procedures and prepared statements.\
+#### 2.1.1 GetMaxQuantity
+
+
 
 
 
