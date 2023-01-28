@@ -46,9 +46,13 @@ code -> [here](./sql_queries/GetOrderDetail.sql)
 #### 2.1.3 CancelOrder
 code -> [here](./sql_queries/CancelOrder.sql)
 
+#### 2.2 Bookings management query optimization
+This part we will create procedures that checking the availability of a booking,
+adding valid booking, or cancel booking using the following data:
+<img width="868" alt="Screenshot 2023-01-28 at 00 45 20" src="https://user-images.githubusercontent.com/76271974/215231768-ce71b77e-e148-41d9-acca-1a7f6bd9b09c.png">
 
-
-
+1.\
+[CheckBooking](./sql_queries/CheckBooking.sql)
 
 
 #### 3.1 Data Visualization
