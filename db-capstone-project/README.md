@@ -66,6 +66,10 @@ See the reusults of finding date '2022-11-12' and tableno of '3':
 4.\
 [UpdateBooking](./sql_queries/UpdateBooking.sql)
 <img width="700" alt="Screenshot 2023-01-28 at 01 53 43" src="https://user-images.githubusercontent.com/76271974/215235778-7a1838b2-4678-4bfc-aa9c-ae6b9fd2d937.png">
+5.\
+[CancelBooking](./sql_queries/CancelBooking.sql)
+<img width="557" alt="Screenshot 2023-01-28 at 01 59 00" src="https://user-images.githubusercontent.com/76271974/215236271-cd54bab4-bc3f-4d25-bfd1-944188d1384c.png">
+<img width="468" alt="Screenshot 2023-01-28 at 01 59 10" src="https://user-images.githubusercontent.com/76271974/215236273-24e9e66b-5438-403b-9e5f-d12424651e00.png">
 
 
 #### 3.1 Data Visualization
