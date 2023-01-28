@@ -21,10 +21,12 @@ tables including the following:
 1. **Menus**, 
 2. **Orders**, 
 3. **MenuItems**,
-4. **and Customers**.\
+4. **and Customers**.
+
 Now we need to use MySQL Workbench SQL editor to write the required stored
-procedures and prepared statements.\
+procedures and prepared statements.
 #### 2.1.1 GetMaxQuantity
+Code -> [here](/sql_queries/GetMaxQuantity.sql)
 
 
 
