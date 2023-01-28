@@ -9,5 +9,12 @@ as required.
 #### 1.2 Forwarding the model to the physical db
 After implementing this ER diagram, we used the 'Forward engineer' funciton in MySQL Workbench to
 create the database. The automatically generated SQL query can be found [here](./LittleLemonDB.sql).
-The founded database can be seen here ![This is the created littlelemondb](https://raw.githubusercontent.com/WindAlan-sw/db-capstone-project-/master/db-capstone-project/show_db_sql_query.png)
+The founded database can be seen below ![This is the created littlelemondb](https://raw.githubusercontent.com/WindAlan-sw/db-capstone-project-/master/db-capstone-project/show_db_sql_query.png)
 
+
+
+
+#### 3.1 Data Visualization
+This part requires us to utlize the sales data from LittleLemon to genereate a data visualization
+report on Tableau. In total, we need to make three charts and one interactive dashboard. Check.
+1. [[ProfitChart](./SalesReport_Tableau/Profit_Chart.png)
