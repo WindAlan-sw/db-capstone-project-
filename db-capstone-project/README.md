@@ -17,6 +17,8 @@ The founded database can be seen below ![This is the created littlelemondb](http
 For easier assessing, I have provided self-test result of each criteria, and if you want to
 check procedure exercises, moving to [here(sql_queries)](./sql_queries)
 
+
+
 #### 2.1.GetMaxQuantity
 The cloned repository contains a procedure called GetMaxQuantity(). Call this procedure and verify 
 that the result of Max Quantity in Order is 5.
@@ -33,6 +35,9 @@ If under Jupyter environ, the result will be:
 
 <img width="745" alt="Screenshot 2023-01-28 at 15 07 32" src="https://user-images.githubusercontent.com/76271974/215273883-797b8925-beab-42e4-b309-a822d8c2dc15.png">
 
+
+
+
 #### 2.2 Managebooking()
 The cloned repository contains a procedure called ManageBooking(). Examine the table using the
 following syntax:
@@ -42,10 +47,45 @@ SELECT * FROM Bookings;
 Call the ManageBooking() procedure by passing the appropriate parameters. First with an available 
 table number, then with one that has already been reserved.
 
-**Notethat I have made some adjustments to the procedure**:\
+**Notethat I have made some adjustments to the procedure**:
 1. Procedure Name from **Managebooking()** to **CheckBooking()** # Please pay attention to here.
 2. Based on real-world business framewrok, we need both time and tableno, so instead only table number, here I added another input parameter.
 Check the query of [creating ManageBooking](./sql_queries/CheckBooking.sql)
+
+Therefore, when calling the managebooking, you should follow the below:
+```
+CALL CheckBooking()
+```
+1. The already booking result:
+
+<img width="414" alt="Screenshot 2023-01-28 at 15 15 35" src="https://user-images.githubusercontent.com/76271974/215274424-16596dcb-0034-4c57-9a96-41306646345f.png">
+
+2. The table is available result:
+<img width="472" alt="Screenshot 2023-01-28 at 15 16 25" src="https://user-images.githubusercontent.com/76271974/215274439-e63a170d-3a04-41ff-ac96-5b316d655ada.png">
+
+
+
+
+#### 2.3 AddBooking()
+Use the Python client to connect to the database and create an instance of a cursor object. Create an SQL statement that calls the AddBooking() procedure and passes the following parameters:
+
+Booking id: 99 
+
+Customer id: 99 
+
+Table number: 99
+
+Booking date: 2022-12-10 
+
+Call the cursor .execute() method using the above parameters. Print out the result using the cursor .fetchall() method.
+
+Above requirements ask us to use buffer to store the results. Instead of this way, I adopted the
+'callproc' in cursor to execute the 'AddBooking',see:
+
+<img width="756" alt="Screenshot 2023-01-28 at 15 27 32" src="https://user-images.githubusercontent.com/76271974/215274975-061cb708-ec6f-4b6b-adf4-2701d22af0e1.png">
+
+
+
 
 
 
