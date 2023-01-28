@@ -11,26 +11,15 @@ After implementing this ER diagram, we used the 'Forward engineer' funciton in M
 create the database. The automatically generated SQL query can be found [here](./LittleLemonDB.sql).
 The founded database can be seen below ![This is the created littlelemondb](https://raw.githubusercontent.com/WindAlan-sw/db-capstone-project-/master/db-capstone-project/show_db_sql_query.png)
 
-#### 2.1 Query Optimization
-Little Lemon need to query the data in their database. To do this, they need 
-your help with creating optimized queries using stored procedures and prepared
-statements.\
-In the previous module, you developed a data model for Little Lemon and 
-implemented it in your MySQL server. Your database should now contain several 
-tables including the following:
-1. **Menus**, 
-2. **Orders**, 
-3. **MenuItems**,
-4. **and Customers**.
 
-Now we need to use MySQL Workbench SQL editor to write the required stored
-procedures and prepared statements.
 
 ## 2. Procedure and Client Testing
 For easier assessing, I have provided self-test result of each criteria, and if you want to
 check procedure exercises, moving to [here(sql_queries)](./sql_queries)
 
-#### 2.1.1 GetMaxQuantity
+#### 2.1.GetMaxQuantity
+The cloned repository contains a procedure called GetMaxQuantity(). Call this procedure and verify 
+that the result of Max Quantity in Order is 5.
 Code -> [here](./sql_queries/GetMaxQuantity.sql)
 ```
 CREATE PROCEDURE GetMaxQuantity()
@@ -44,6 +33,19 @@ If under Jupyter environ, the result will be:
 
 <img width="745" alt="Screenshot 2023-01-28 at 15 07 32" src="https://user-images.githubusercontent.com/76271974/215273883-797b8925-beab-42e4-b309-a822d8c2dc15.png">
 
+#### 2.2 Managebooking()
+The cloned repository contains a procedure called ManageBooking(). Examine the table using the
+following syntax:
+```
+SELECT * FROM Bookings;
+```
+Call the ManageBooking() procedure by passing the appropriate parameters. First with an available 
+table number, then with one that has already been reserved.
+
+**Notethat I have made some adjustments to the procedure**:\
+1. Procedure Name from **Managebooking()** to **CheckBooking()** # Please pay attention to here.
+2. Based on real-world business framewrok, we need both time and tableno, so instead only table number, here I added another input parameter.
+Check the query of [creating ManageBooking](./sql_queries/CheckBooking.sql)
 
 
 
