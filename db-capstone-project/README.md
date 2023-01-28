@@ -66,7 +66,7 @@ CALL CheckBooking()
 
 
 
-#### 2.3 AddBooking()
+#### 2.3 AddBooking() in python Client
 Use the Python client to connect to the database and create an instance of a cursor object. Create an SQL statement that calls the AddBooking() procedure and passes the following parameters:
 
 Booking id: 99 
@@ -84,6 +84,25 @@ Above requirements ask us to use buffer to store the results. Instead of this wa
 
 <img width="756" alt="Screenshot 2023-01-28 at 15 27 32" src="https://user-images.githubusercontent.com/76271974/215274975-061cb708-ec6f-4b6b-adf4-2701d22af0e1.png">
 
+#### 2.4 UpdateBooking() in Python client
+Use the Python client to connect to the database and create an instance of a cursor object. Create a SQL statement that calls the UpdateBooking() procedure and pass the following parameters:
+
+Table number: 99
+
+Booking date: 2022-1-10 
+
+Call the cursor .execute() method using the above parameters. Print out the result using the cursor .fetchall() method.
+
+This requires us to update the date of added booking in previous task, and it realizes by inputting
+two parameters of table number and bookingdate. However, according to real-world business requirement,
+we need at least table number, bookingid to confirm the accuracy of this order. Therefore, I added
+the parameter of bookingid and the new procedure 'UpdateBooking' can be prepared as below:
+```
+CALL UpdateBooking(TableNoInput INT, BookingDateInput DATETIME, BookingIDInput INT)
+```
+
+By this way, I updated the date of new bookingid of 99 from '2022-12-10' to '2022-01-10' as below:
+<img width="688" alt="Screenshot 2023-01-28 at 15 35 01" src="https://user-images.githubusercontent.com/76271974/215275271-880e2435-59f1-4288-8ba5-93a3fa9c8a3b.png">
 
 
 
