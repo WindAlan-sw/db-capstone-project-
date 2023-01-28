@@ -102,9 +102,17 @@ CALL UpdateBooking(TableNoInput INT, BookingDateInput DATETIME, BookingIDInput I
 ```
 
 By this way, I updated the date of new bookingid of 99 from '2022-12-10' to '2022-01-10' as below:
+
 <img width="688" alt="Screenshot 2023-01-28 at 15 35 01" src="https://user-images.githubusercontent.com/76271974/215275271-880e2435-59f1-4288-8ba5-93a3fa9c8a3b.png">
 
+#### 2.5 CancelBooking in Python client
+The same as above, I added the parameter of bookingid to improve accuracy in this question:
+```
+CALL CancelBooking(TableNoInput INT, BookingIDInput INT);
+```
+Upon seeing the result below, the booking with id =99, tableno=99 would be deleted from Bookings:
 
+<img width="680" alt="Screenshot 2023-01-28 at 15 37 00" src="https://user-images.githubusercontent.com/76271974/215275434-9e65f7b2-8cd0-479c-94ea-0fddd73ce8f5.png">
 
 
 
